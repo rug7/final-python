@@ -3,11 +3,11 @@ set -e
 
 echo "Starting dependency installation..."
 
-# Update system - use dnf for Amazon Linux 2023
-dnf update -y
+# Update system - use YUM for Amazon Linux 2
+yum update -y
 
 # Install Docker
-dnf install -y docker
+yum install -y docker
 
 # Start and enable Docker
 systemctl start docker
