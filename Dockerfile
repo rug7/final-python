@@ -18,4 +18,4 @@ EXPOSE 5000
 
 # set the command to run the app when the container starts
 CMD ["python", "app.py"]
-# Fixed workflow
+# Workflow with secrets configured
